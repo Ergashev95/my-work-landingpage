@@ -9,6 +9,7 @@
     --dots: #828282;
     --dots-active: #7177F1;
     --white: #fff;
+    --subtitle: #EBEBEB;
     --footer-link: #7177F1;
     --Montserrat: "Montserrat";
     --Trebuchet: "Trebuchet";
@@ -134,7 +135,7 @@ body {
     outline: unset;
 }
 .header-menu:focus {
-    border: unset;
+   box-shadow: unset;
 }
 .header-nav__btn {
     text-transform: capitalize;
@@ -142,3 +143,60 @@ body {
     padding-right: 43px;
 }
 /* SITE-HEADER */
+
+/* SITE-HERO */
+
+.site-hero {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.site-hero__subtitle {
+    color: var(--subtitle);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: capitalize;
+    font-family: var(--Montserrat);
+    
+}
+
+.site-hero__title {
+    margin-top: 10px;
+}
+
+.site-hero__btn {
+    max-width: 299px;
+    width: 100%;
+    padding: unset;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    margin: 24px auto 50px;
+}
+
+
+.site-hero__tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+}
+.site-hero__name {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.site-hero__image {
+    max-width: 550px;
+    width: 100%;
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+/* SITE-HERO */
