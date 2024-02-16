@@ -206,16 +206,76 @@ body {
     border-radius: 50%;
 
 }
-
 .carousel-indicators > button.active {
     background-color: var(--dots-active);
 }
 
 
-
-
-
 /* SITE-HERO */
+
+/* ABOUT-SECTION */
+.about {
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.about-image {
+    text-align: center;
+}
+.about-work {
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    position: absolute;
+
+}
+
+.about-work__count {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #0FDAC2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -14px;
+    right: -10px;
+    font-style: italic;
+    font-weight: 700;
+}
+.about-photo {
+    object-fit: cover;
+}
+
+
+.about-desc {
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 34px 30px 26px;
+}
+
+.about-desc__text {
+    color: var(--white);
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+.about-desc__btn {
+    padding-top: 13px;
+    padding-bottom: 14px;
+    font-size: 18px;
+}
+
+/* ABOUT-SECTION */
 
 
 
