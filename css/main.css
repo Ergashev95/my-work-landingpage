@@ -251,8 +251,10 @@ body {
 }
 .about-photo {
     object-fit: cover;
+    max-width: 459px;
+    width: 100%;
+    /* width: 100%; */
 }
-
 
 .about-desc {
     box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
@@ -276,6 +278,85 @@ body {
 }
 
 /* ABOUT-SECTION */
+
+
+/*  CAPABILITIES SECTION */
+
+.capabilities-title {
+    margin-bottom: 30px;
+}
+.accordion__item {
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+}
+.accordion-btn {
+    width: 100%;
+    border: unset;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 15px 30px;
+    background-color: var(--body);
+    color: var(--primary-color);
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s;
+}
+
+
+
+.accordion__item:nth-child(1) .capabilities-brend__icon {
+    color:#E44F26;
+}
+
+.accordion__item:nth-child(2) .capabilities-brend__icon {
+    color:#1572B6;
+}
+.accordion__item:nth-child(3) .capabilities-brend__icon {
+    color:#790FF1;
+}
+
+.accordion-btn:not(.collapsed) {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+.accordion-btn:not(.collapsed) .capabilities-brend__icon  {
+    color: var(--white);
+}
+
+
+.capabilities-icon {
+    position: absolute;
+    right: 30px;
+    transition: .5s;
+}
+
+.accordion-btn:not(.collapsed) .capabilities-icon {
+    transform: rotate(180deg);
+}
+.accordion__body {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 25px 30px 55px;
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+.capabilities-image {
+    width: 100%;
+}
+.capabilities-image__item {
+    width: 100%;
+    object-fit: cover;
+}
+
+/*  CAPABILITIES SECTION */
 
 
 
