@@ -77,6 +77,59 @@ body {
 
 /* SITE-HEADER */
 
+    /* ANIMATION */
+    .navbar-container {
+        position: relative;
+    }
+    .navbar-container::before {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 60px;
+        border: 5px solid #790FF1;
+        border-radius: 50%;
+        position: absolute;
+        top: 26px;
+        left: -60px;
+        animation: scale 3s ease-in-out infinite;
+    }
+    .navbar-container::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 60px;
+        border: 5px solid #9297EF;
+
+        position: absolute;
+        top: 80px;
+        right: -60px;
+        animation: rotate 3s ease-in-out infinite;
+    }
+
+
+    @keyframes scale {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* ANIMATION */
+
+    
+
+
 .logo::before {
     content: url(../img/logo\ dark.svg);
 }
