@@ -10,7 +10,7 @@
     --dots-active: #7177F1;
     --white: #fff;
     --subtitle: #EBEBEB;
-    --footer-link: #7177F1;
+    --footer-link: #fff;
     --Montserrat: "Montserrat";
     --Trebuchet: "Trebuchet";
 
@@ -281,7 +281,9 @@ body {
 
 
 /*  CAPABILITIES SECTION */
-
+.capabilities {
+    padding-bottom: 80px;
+}
 .capabilities-title {
     margin-bottom: 30px;
 }
@@ -357,6 +359,96 @@ body {
 }
 
 /*  CAPABILITIES SECTION */
+
+
+/* WORK SECTION */
+.works {
+    padding-bottom: 80px;
+}
+.works-title {
+    margin-bottom:  30px;
+}
+.work-group__item {
+    background-color: var(--body);
+    color: var(--primary-color);
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    padding: 17px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.work-group__item.active {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.work-group__item:hover {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--body);
+}
+
+.mywork-image {
+    width: 100%;
+    height: 100%;
+}
+
+
+.works-tab__pane {
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--body);
+}
+.mywork-title {
+    font-family: var(--Montserrat);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}   
+.mywork-text {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: capitalize;
+    font-family: var(--Montserrat);
+}
+/* WORK SECTION */
+
+/* SITE-FOOTER */
+
+
+.footer {
+    padding-bottom: 100px;
+}
+
+.menu-list {
+    column-gap: 30px;
+}
+.menu-link {
+    color: var( --footer-link);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-transform: capitalize;
+}
+.menu-link:hover {
+    color: var( --footer-link);
+}
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-contact a {
+    font-family: var(--Montserrat);
+    font-size: 24px;
+    text-transform: capitalize;   
+    color: var(--footer-link);
+}
+/* SITE-FOOTER */
 
 
 
